@@ -1,0 +1,95 @@
+/* ::::: http://www.gummisig.com/wp-content/themes/new/style.css ::::: */
+
+/* ::::: http://www.gummisig.com/style-reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-size: 100%; vertical-align: baseline; }
+body { line-height: 1; }
+:focus { outline: medium none; }
+ol, ul { list-style: none outside none; }
+html, body { height: 100%; }
+body { background: none repeat scroll 0% 0% rgb(177, 192, 198); font: 12px/18px Helvetica,Arial,Helvetica,sans-serif; color: rgb(34, 34, 34); }
+p { margin-bottom: 20px; }
+a { background: url('bg-link-black.png') repeat-x scroll left bottom rgb(221, 221, 221); text-decoration: none; color: rgb(205, 100, 14); }
+a:hover { background: none repeat scroll 0% 0% rgb(204, 204, 204); }
+ul { padding: 0px; margin: 0px; }
+li { padding: 0px; margin: 0px; list-style: none outside none; }
+strong { font-weight: bold; }
+h2 { border-bottom: 3px solid rgb(34, 34, 34); border-top: 1px solid rgb(34, 34, 34); font-size: 18px; font-weight: bold; letter-spacing: -1px; line-height: 20px; margin-bottom: 20px; padding: 14px 0px; }
+h3 { font-size: 18px; font-weight: normal; line-height: 20px; letter-spacing: -1px; margin-bottom: 10px; padding: 14px 0px; text-align: left; }
+hr { border: 2px solid rgb(34, 34, 34); margin-bottom: 30px; }
+blockquote { background: none repeat scroll 0% 0% rgb(34, 34, 34); padding: 30px; font-style: italic; margin-bottom: 30px; }
+blockquote p { color: rgb(237, 237, 237); font-style: italic; font-weight: bold; padding: 10px 20px; }
+#container-work { width: 895px; margin: 0px auto; padding-top: 57px; }
+#wrapper { min-height: 100%; height: auto ! important; margin: 0px auto; background: url('bg-square2.jpg') no-repeat scroll center top transparent; }
+a:focus { outline: medium none; }
+#wrapper:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#lnav { float: left; width: 169px; text-align: right; }
+#lnav p { padding-top: 5px; margin-bottom: 20px; }
+#lnav li#pages-2 ul { font-size: 30px; letter-spacing: -2px; line-height: 24px; list-style: none outside none; margin-bottom: 0px; text-transform: uppercase; }
+#lnav li#pages-2 h2 { display: none; }
+#lnav ul li a { color: rgb(34, 34, 34); background: none repeat scroll 0% 0% transparent; text-decoration: none; }
+#lnav ul li a:hover { color: rgb(237, 237, 237); text-decoration: none; background: none repeat scroll 0% 0% rgb(51, 51, 51); }
+#lnav ul li.current_page_item a { color: rgb(237, 237, 237); text-decoration: none; background: none repeat scroll 0% 0% rgb(34, 34, 34); }
+#lnav p.desc { margin-bottom: 5px; color: rgb(205, 100, 14); font-weight: normal; font-size: 18px; line-height: 18px; margin-top: 34px; }
+#rcontent { border-bottom: 3px solid rgb(34, 34, 34); float: left; width: 696px; margin-left: 30px; min-height: 500px; padding-bottom: 112px; }
+#rcontent h1 { background: none repeat scroll 0px 0px transparent; border-top: 3px solid rgb(34, 34, 34); color: rgb(25, 29, 31); font-size: 100px; font-weight: bold; letter-spacing: -8px; line-height: 81px; margin: -2px 0px 33px; padding-top: 30px; text-indent: 0px; text-transform: uppercase; }
+#rcontent ul li { font-size: 14px; list-style: disc outside none; margin-bottom: 10px; }
+#rcontent ul { margin-bottom: 18px; }
+.pad10TB { padding: 20px 10px 20px 0px; }
+#post-2 h2#testimonials { background: url('headline-testimonials.png') no-repeat scroll left bottom transparent; border: medium none; height: 20px; margin-bottom: 3px; margin-top: 40px; text-indent: -9999px; width: 148px; }
+body#about blockquote { background: none repeat scroll 0% 0% transparent; color: rgb(34, 34, 34); float: left; font-style: normal; margin-right: 20px; min-height: 284px; padding: 0px; width: 328px; }
+body#about blockquote p { padding: 0px; }
+body#about #post-2 blockquote { font-size: 14px; font-weight: bold; margin-bottom: -2px; }
+body#about #post-2 blockquote h2 { border: medium none; padding: 0px; margin-bottom: 0px; }
+body#about blockquote h3 { color: rgb(86, 86, 88); font-size: 14px; font-style: normal; font-weight: normal; padding: 0px; margin-bottom: 14px; }
+body#about #post-2 blockquote p { color: rgb(34, 34, 34); font-size: 12px; font-style: italic; line-height: 18px; }
+#footer, .push {  }
+#footer { background: url('bg-footer.jpg') repeat-x scroll center bottom transparent; clear: both; display: block; height: 300px; padding: 0px; }
+#footer ul { border-top: 2px solid rgb(34, 34, 34); padding: 25px 0px 0px; margin: 0px auto; width: 895px; }
+#footer ul li { float: left; margin: 0px 0px 0px 20px; padding: 0px; width: 156px; }
+#footer ul li h3 { font-size: 18px; font-weight: bold; padding: 0px; line-height: 18px; letter-spacing: -1px; margin-bottom: 8px; }
+#footer ul li h3 a { color: rgb(34, 34, 34); background: none repeat scroll 0% 0% transparent; }
+#footer ul li h3 a:hover { text-decoration: underline; }
+#footer ul li h4 { font-size: 12px; }
+#footer ul li h4 a:hover { text-decoration: underline; }
+#footer #f-about { margin-left: 0px; margin-right: 9px; width: 169px; }
+#f-about a { clear: both; }
+#footer p a { clear: both; }
+.entry h3 { font-weight: bold; padding-bottom: 0px; margin-bottom: 0px; }
+.entry ul { list-style-type: disc; margin-left: 14px; margin-top: -10px; }
+img.wp-image-52 { border: medium none; float: right; margin: -240px -50px 0px 14px; }
+#post-2 h2 { font-size: 18px; font-weight: bold; line-height: 20px; margin-bottom: 20px; width: 477px; }
+#post-2 p, .entry p { font-size: 14px; line-height: 20px; }
+/* ::::: http://www.gummisig.com/wp-content/uploads/shadowbox-js/src/shadowbox.css?ver=3.0.3 ::::: */
+
+#sb-title-inner, #sb-info-inner, #sb-loading-inner, div.sb-message { font-family: "HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: 200; color: rgb(255, 255, 255); }
+#sb-container { position: fixed; margin: 0px; padding: 0px; top: 0px; left: 0px; z-index: 999; text-align: left; visibility: hidden; display: none; }
+#sb-overlay { position: relative; height: 100%; width: 100%; }
+#sb-wrapper { position: absolute; visibility: hidden; width: 100px; }
+#sb-wrapper-inner { position: relative; border: 1px solid rgb(48, 48, 48); overflow: hidden; height: 100px; }
+#sb-body { position: relative; height: 100%; }
+#sb-body-inner { position: absolute; height: 100%; width: 100%; }
+#sb-loading { position: relative; height: 100%; }
+#sb-loading-inner { position: absolute; font-size: 14px; line-height: 24px; height: 24px; top: 50%; margin-top: -12px; width: 100%; text-align: center; }
+#sb-loading-inner span { background: url('loading.gif') no-repeat scroll 0% 0% transparent; padding-left: 34px; display: inline-block; }
+#sb-body, #sb-loading { background-color: rgb(6, 6, 6); }
+#sb-title, #sb-info { position: relative; margin: 0px; padding: 0px; overflow: hidden; }
+#sb-title, #sb-title-inner { height: 26px; line-height: 26px; }
+#sb-title-inner { font-size: 16px; }
+#sb-info, #sb-info-inner { height: 20px; line-height: 20px; }
+#sb-info-inner { font-size: 12px; }
+#sb-nav { float: right; height: 16px; padding: 2px 0px; width: 45%; }
+#sb-nav a { display: block; float: right; height: 16px; width: 16px; margin-left: 3px; cursor: pointer; background-repeat: no-repeat; }
+#sb-nav-close { background-image: url('close.png'); }
+#sb-nav-next { background-image: url('next.png'); }
+#sb-nav-previous { background-image: url('previous.png'); }
+#sb-nav-play { background-image: url('play.png'); }
+#sb-nav-pause { background-image: url('pause.png'); }
+#sb-counter { float: left; width: 45%; }
+/* ::::: http://www.gummisig.com/wp-content/plugins/shadowbox-js/css/extras.css?ver=3.0.3.10 ::::: */
+
+/* ::::: http://www.gummisig.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4.2 ::::: */
+
+/* ::::: http://www.gummisig.com/wp-content/plugins/social/assets/comments.css?ver=2.7 ::::: */
+
+#social #submit::-moz-focus-inner { border: 0px none; margin: 0px; padding: 0px; }
