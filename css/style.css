@@ -116,7 +116,7 @@ CONTENT
 	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
 }
 
-.user-icon, .pass-icon, .full-icon, .gmail-icon, .userl-icon, .passl-icon {
+.user-icon, .pass-icon, .full-icon, .gmail-icon, .userl-icon, .passl-icon, .gmailp-icon {
 	width: 46px;
 	height: 47px;
 	display: block;
@@ -132,34 +132,37 @@ CONTENT
 	-webkit-border-bottom-left-radius: 5px;
 }
 .userl-icon{
-	top:138px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+	top:140px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
 	background: rgba(65,72,72,0.75) url(../images/user-icon.png) no-repeat center;	
 }
 .passl-icon{
-	top:215px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+	top:197px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
 	background: rgba(65,72,72,0.75) url(../images/pass-icon.png) no-repeat center;	
 }
 .user-icon {
-	top:246px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+	top:197px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
 	background: rgba(65,72,72,0.75) url(../images/user-icon.png) no-repeat center;	
 }
 
 .pass-icon {
-	top:322px;
+	top:252px;
 	background: rgba(65,72,72,0.75) url(../images/pass-icon.png) no-repeat center;
 }
 
 .gmail-icon {
-	top: 375px;
+	top: 308px;
 	background: rgba(65,72,72,0.75) url(../images/email.png) no-repeat center;
 }
 .full-icon {
-	top: 192px;
+	top: 140px;
 	background: rgba(65,72,72,0.75) url(../images/full.png) no-repeat center;
 }
-
+.gmailp-icon {
+	top: 106px;
+	background: rgba(65,72,72,0.75) url(../images/email.png) no-repeat center;
+}
 /* Animation */
-.input, .user-icon, .pass-icon, .button, .register, .full-icon, .gmail-icon, .passl-icon, .userl-icon {
+.input, .user-icon, .pass-icon, .button, .register, .full-icon, .gmail-icon, .passl-icon, .userl-icon, .gmailp-icon {
 	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;

@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Galaxy - Coming Soon</title> <!-- title -->
+    <link rel="shortcut icon" href="images/favicon.ico" /> <!--  favicon  -->
+    
+    <!-- STYLES -->
+ 
+    <!-- Bootstrap 3.0.2 -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <!-- Ketchup -->
+    <link rel="stylesheet" type="text/css" href="styles/jquery.ketchup.css" />
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="styles/animate.min.css" />
+    <!-- STYLES.CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="scripts/respond.min.js"></script>
+        <script type="text/javascript" src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+			<div class="hero-unit">
+				<h1 style="font-size:66px;">Gamazone</h1>
+			</div> <!-- end Header -->
+			<h1 class="main-heading">We are coming soon!</h1>
+			<p class="main-subheading lead">We will be here very soon. You can just stick around and press F5 all day or you can enter your email in the form below and we will notify you when we launch.</p>
+			<h1>Countdown to GATE 2014 CS</h1>
+			<ul id="countdown" class="list-inline countdown">
+				<li class="time">
+					<span class="days">00</span>
+					<p class="timeRefDays">days</p>
+				</li> <!-- end time -->
+				<li class="time">
+					<span class="hours">00</span>
+					<p class="timeRefHours">hours</p>
+				</li> <!-- end time -->
+				<li class="time">
+					<span class="minutes">00</span>
+					<p class="timeRefMinutes">minutes</p>
+				</li> <!-- end time -->
+				<li class="time">
+					<span class="seconds">00</span>
+					<p class="timeRefSeconds">seconds</p>
+				</li> <!-- end time -->
+			</ul> <!-- end countdown -->
+        	<a href="#about" class="learn-more tool-tip smooth" title="Learn More" data-placement="top"><i class="fa fa-angle-down"></i></a>
+        </div> <!-- end container -->
+    </div> <!-- end main -->
+    
+    <div class="about" id="about">
+    	<div class="container">
+    		<h1 class="heading">About Us</h1>
+    		<p class="lead">We are the gamers. Gamers always believe that an epic win is possible and that it's always worth trying, and trying now. Gamers don't sit around.</p>
+    		<div class="row">
+    			<div class="about-item col-sm-4">
+    				<div class="about-icon"><i class="fa fa-mobile"></i></div>
+    				<h2 class="about-heading">Mobile</h2>
+    				<p>The era of tic-tac-toe ends right beneath our feet. This is the time to feel the power of real game. It's the era of IOS and Android. Lets feel the thrust with us. </p>
+    			</div> <!-- end about-item -->
+    			<div class="about-item col-sm-4">
+    				<div class="about-icon"><i class="fa fa-laptop"></i></div>
+    				<h2 class="about-heading">PC</h2>
+    				<p>A game is an opportunity to focus our energy, with relentless optimism, at something we’re good at (or getting better at) and enjoy. In other words, gameplay is the direct emotional opposite of depression.</p>
+    			</div> <!-- end about-item -->
+    			<div class="about-item col-sm-4">
+    				<div class="about-icon"><i class="fa fa-users"></i></div>
+    				<h2 class="about-heading">Multipler</h2>
+    				<p>What greater weapon is there than to turn an enemy to your cause? To use their own knowledge against them?</p>
+    			</div> <!-- end about-item -->
+    		</div> <!-- end row -->
+    	</div> <!-- end container -->
+    </div> <!-- end about -->
+    
+    <div class="newsletter">
+    	<div class="container">
+            <h1 class="heading">Get Updates</h1>
+            <form action="scripts/newsletter.php" method="post" id="newsletter-form">
+                <div class="input-group input-group-lg">
+                    <input type="email" name="newsletter-email" id="newsletter-email" class="form-control" placeholder="Enter Your Email" data-validate="validate(required, email)" />
+                    <span class="input-group-btn">
+                        <input type="submit" id="newsletter-submit" class="btn" value="Notify Me" />
+                    </span> <!-- end input-group-btn -->
+                </div> <!-- end input-group -->
+                <div class="alert alert-success" id="newsletter-success"></div>
+                <div class="alert alert-danger" id="newsletter-error"></div>
+            </form> <!-- end newsletter-form -->
+        </div> <!-- end container -->
+    </div> <!-- end newsletter -->
+    
+    <div class="contact">
+    	<div class="container">
+            <h1 class="heading">Contact Us</h1>
+            <div class="row">
+                <div class="col-sm-6 contact-infos">
+                    <p class="lead">You can put some information here.</p>
+                    <div class="contact-info">
+                        <p class="address"><i class="fa fa-map-marker"></i>Kalyani, WB, INDIA</p>
+                        <p class="address"><i class="fa fa-pencil"></i> mail@rohanroy.com</p>
+                        <p class="address"><i class="fa fa-phone"></i>(+91) - 9734593128</p>
+                        <p class="address"><i class="fa fa-globe"></i> www.rohanroy.com</p>
+                    </div>
+                </div> <!-- end col-sm-6 -->
+                <div class="col-sm-6">
+                    <form action="scripts/contact.php" method="post" id="contact-form">
+                        <div class="input-group">
+                            <span class="input-group-addon tool-tip" title="Your Name" data-placement="left"><i class="fa fa-user"></i></span>
+                            <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Your Name" data-validate="validate(required)" />
+                        </div> <!-- end input-group -->
+                        <div class="input-group">
+                            <span class="input-group-addon tool-tip" title="Your Email" data-placement="left"><i class="fa fa-envelope"></i></span>
+                            <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="Your Email" data-validate="validate(required, email)" />
+                        </div> <!-- end input-group -->
+                        <div class="input-group">
+                            <span class="input-group-addon tool-tip" title="Your Website (Optional)" data-placement="left"><i class="fa fa-globe"></i></span>
+                            <input type="url" class="form-control" id="contact-website" name="contact-website" placeholder="Your Website (Optional)" />
+                        </div> <!-- end input-group -->
+                        <div class="input-group">
+                            <span class="input-group-addon tool-tip" title="Your Message" data-placement="left"><i class="fa fa-pencil"></i></span>
+                            <textarea class="form-control" id="contact-message" name="contact-message" placeholder="Your Message" rows="5" data-validate="validate(rangelength(1, 1000))"></textarea>
+                        </div> <!-- end input-group -->
+                        <input type="submit" class="btn btn-lg btn-block" id="contact-form-submit" name="contact-form-submit" value="Send" />
+                        <div class="alert alert-success" id="contact-success"></div>
+						<div class="alert alert-danger" id="contact-error"></div>
+                    </form> <!-- end contact-form -->
+                </div> <!-- end col-sm-6 -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </div> <!-- end contact -->
+    
+    <footer class="footer">
+    	<a href="#top" class="back-top tool-tip smooth" title="Back To Top" data-placement="top"><i class="fa fa-angle-up"></i></a>
+    	<p class="lead copyright">Gamazone &copy; 2014 Rohan&nbsp;Roy</p>
+    	<ul class="list-inline">
+    		<li><a href="http://twitter.com/triump0870" class="social-icon tool-tip" title="Twitter" data-placement="top" ><i class="fa fa-twitter"></i></a></li>
+    		<li><a href="http://facebook.com/triump0870" class="social-icon tool-tip" title="Facebook" data-placement="top"><i class="fa fa-facebook"></i></a></li>
+    		<li><a href="http://google.com/triump0870" class="social-icon tool-tip" title="Google+" data-placement="top" ><i class="fa fa-google-plus"></i></a></li>
+    		<li><a href="http://linkedin.com/in/triump0870" class="social-icon tool-tip" title="Linkedin" data-placement="top"><i class="fa fa-linkedin"></i></a></li>
+    		<li><a href="https://github.com/triump0870" class="social-icon tool-tip" title="Github" data-placement="top" ><i class="fa fa-github"></i></a></li>
+    		<li><a href="http://youtube.com/triump0870" class="social-icon tool-tip" title="Youtube" data-placement="top"><i class="fa fa-youtube"></i></a></li>
+	</ul>
+    </footer> <!-- end footer -->
+    
+    <!-- SCRIPTS -->
+    
+    <!-- jQuery 1.10.2 -->
+    <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+    <!-- Bootstrap 3.0.2 -->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Ketchup -->
+    <script type="text/javascript" src="scripts/jquery.ketchup.all.min.js"></script>
+    <!-- Countdown -->
+    <script type="text/javascript" src="scripts/countdown.js"></script>
+    <!-- InView -->
+    <script type="text/javascript" src="scripts/jquery.inview.js"></script>
+    <!-- Retina -->
+    <script type="text/javascript" src="scripts/retina.js"></script>
+    <!-- Backstretch Slideshow -->
+    <script type="text/javascript" src="scripts/jquery.backstretch.min.js"></script>
+    <!-- SCRIPTS.JS -->
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <div class="backstretch">
+	<img src="images/rohan.jpg" class="img">
+   </div>
+</body>
+</html>

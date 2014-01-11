@@ -71,6 +71,13 @@
 			$(".gmail-icon").css("left","0px");	
 		
 		});
+		$(".email").focus(function(){
+			$(".gmailp-icon").css("left","-48px");
+		});
+		$(".email").blur(function(){
+			$(".gmailp-icon").css("left","0px");	
+		
+		});
 	});
 	</script>
 </head>
@@ -92,7 +99,7 @@
           		<a indepth="true" class="brand scroller" href="about/about.html">Rohan Roy</a>
 		  	<div class="nav-collapse collapse">
                 		<ul class="nav pull-right">
-                  			<li><a href="#">Gamazon</a></li>
+                  			<li><a href="#" class="scroller" data-section="#html">Gamazon</a></li>
                     			<li><a href="#" class="scroller" data-section="#about">Dev Zone</a></li>
 					<li><a href="#" class="scroller" data-section="#team">Team</a></li>
 					<li><a href="#" class="scroller" data-section="#contact">Contact Us</a></li>
@@ -338,8 +345,47 @@
 			<!--END LOGIN BUTTON-->
 	
 		    	<!--SIGN UP BUTTON-->
-			<a type="submit" name="submit" class="register" value="Sign Up" href="#join_form">Sign Up</a>
+			<a type="submit" name="submit" class="register" value="Sign Up" href="#no_pass">No Pass</a>
 			<!--END REGISTER BUTTON-->
+		</div>
+		<!--END FOOTER-->
+		
+		<!-- Close -->
+		<a class="close" href="#close"></a>
+		<!-- End Close -->
+	</form>
+	<!--END LOGIN FORM-->
+</div>
+<!-- No Password -->
+<a href="#x" class="overlay" id="no_pass"></a>
+<div class="popup">
+	<!--SLIDE-IN ICONS-->
+    	<div class="gmailp-icon"></div>
+	<!--END SLIDE-IN ICONS-->
+
+	<!--NO PASSWORD FORM-->
+	<form name="No-Pass" class="login-form" action="" method="">
+		<!--HEADER-->
+		<div class="footer">
+			<!--TITLE--><h2>Reset Password</h2><!--END TITLE-->
+		</div>
+		<!--END HEADER-->
+	
+		<!--CONTENT-->
+		<div class="content">
+			<!--Email-->
+			<a alt="Please enter your Email Id" class="tooltip">
+				<input name="email" type="text" class="input email" value="Email" onfocus="this.value=''" />
+			</a>
+			<!--END Email-->
+		</div>
+		<!--END CONTENT-->
+			    
+		<!--FOOTER-->
+		<div class="footer">
+			<!--SUBMIT BUTTON-->
+			<input type="submit" style="margin-left:80px;" name="submit" value="Submit" class="btn btn-large btn-purple" href="#"/>
+			<!--END SYBMIT BUTTON-->
 		</div>
 		<!--END FOOTER-->
 		
