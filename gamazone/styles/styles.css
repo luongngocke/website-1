@@ -147,8 +147,8 @@ a:focus {
 
 /* MAIN */
 .main {
-    padding: 48px;
-    text-align: center;
+    	padding: 48px;
+    	text-align: center;
 	background: rgba(31, 31, 33, 0.5);
 }
 .logo-wrapper {
@@ -278,6 +278,20 @@ FOOTER
 .back-top {
 	font-size: 72px;
 	line-height: 24px;
+	transition-property:width;
+-moz-transition-property: width; /* Firefox 4 */
+-webkit-transition-property:width; /* Safari and Chrome */
+-o-transition-property:width; /* Opera */
+
+transition-duration: 1.3s;
+-moz-transition-duration: 1.3s; /* Firefox 4 */
+-webkit-transition-duration: 1.3s; /* Safari and Chrome */
+-o-transition-duration: 1.3s; /* Opera */
+
+transition-timing-function: linear;
+-moz-transition-timing-function: linear; /* Firefox 4 */
+-webkit-transition-timing-function: linear; /* Safari and Chrome */
+-o-transition-timing-function: linear; /* Opera */ 
 }
 .copyright {
 	margin-top: 24px;

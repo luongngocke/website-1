@@ -12,8 +12,12 @@ sitemap.xml
 wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
-*.html~
-*.php~
+about.html~
+index.php~
+index.css~
+style.css~
+btn.css~
+modal.css~
 *.css~
 *.js~
 index.html~
