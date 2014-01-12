@@ -278,20 +278,23 @@ FOOTER
 .back-top {
 	font-size: 72px;
 	line-height: 24px;
-	transition-property:width;
--moz-transition-property: width; /* Firefox 4 */
--webkit-transition-property:width; /* Safari and Chrome */
--o-transition-property:width; /* Opera */
+	transition-property:height;
+	-moz-transition-property: height; /* Firefox 4 */
+	-webkit-transition-property:height; /* Safari and Chrome */
+	-o-transition-property:height; /* Opera */
 
-transition-duration: 1.3s;
--moz-transition-duration: 1.3s; /* Firefox 4 */
--webkit-transition-duration: 1.3s; /* Safari and Chrome */
--o-transition-duration: 1.3s; /* Opera */
+	transition-duration: 4s;
+	-moz-transition-duration: 4s; /* Firefox 4 */
+	-webkit-transition-duration: 4s; /* Safari and Chrome */
+	-o-transition-duration: 4s; /* Opera */
 
-transition-timing-function: linear;
--moz-transition-timing-function: linear; /* Firefox 4 */
--webkit-transition-timing-function: linear; /* Safari and Chrome */
--o-transition-timing-function: linear; /* Opera */ 
+	transition-timing-function: linear;
+	-moz-transition-timing-function: linear; /* Firefox 4 */
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+	-o-transition-timing-function: linear; /* Opera */ 
+}
+.back-top:hover {
+	height: 300px;
 }
 .copyright {
 	margin-top: 24px;

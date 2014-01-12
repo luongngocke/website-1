@@ -75,7 +75,7 @@ li { line-height: 20px; }
 .button { border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25); }
 button.button, input.button[type="submit"] {  }
 button.button::-moz-focus-inner, input.button[type="submit"]::-moz-focus-inner { padding: 0px; border: 0px none; }
-.nav { margin-bottom: 20px; margin-left: 0px; list-style: none outside none; }
+.nav { margin-bottom: 20px; margin-left: 0px; list-style: none outside none;  }
 .nav > li > a { display: block; }
 
 .nav > li > a:hover { text-decoration: none; background-color: rgb(238, 238, 238); }
@@ -105,9 +105,9 @@ button.button::-moz-focus-inner, input.button[type="submit"]::-moz-focus-inner {
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner { border-width: 0px 0px 1px; }
 .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner { padding-right: 0px; padding-left: 0px; border-radius: 0px 0px 0px 0px; }
 .navbar-static-top .contain, .navbar-fixed-top .contain, .navbar-fixed-bottom .contain { width: 940px; }
-.navbar-fixed-top { top: 0px; }
+.navbar-fixed-top { top:0px; border-top: 4px solid rgba(41, 127, 163, 0.9); }
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner { box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); }
-.navbar .nav { position: relative; left: 0px; display: block; float: left; margin: 0px 10px 0px 0px; }
+.navbar .nav { position: relative; left: 100px; display: block; float: left; margin: 0px 10px 0px 0px; }
 .navbar .nav.pull-right { float: right; margin-right: 0px; }
 .navbar .nav > li { float: left; }
 .navbar .nav > li > a { float: none; padding: 10px 15px; color: rgb(119, 119, 119); text-decoration: none; text-shadow: 0px 1px 0px rgb(255, 255, 255); }
