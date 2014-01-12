@@ -29,17 +29,35 @@
 	$(document).ready(function() {
 		$(".username").focus(function() {
 			$(".user-icon").css("left","-48px");
+			if(this.value=='Username')
+			{
+				this.value = '';
+			}
 		});
 		$(".username").blur(function() {
 			$(".user-icon").css("left","0px");
+			if(this.value=='')
+			{
+				this.value = 'Username';
+			}
 		
 		});
 	
 		$(".password").focus(function() {
 			$(".pass-icon").css("left","-48px");
+			if(this.value=='Password')
+                        {
+                                this.value = '';
+                        }
+
 		});
 		$(".password").blur(function() {
 			$(".pass-icon").css("left","0px");
+			if(this.value=='')
+                        {
+                                this.value = 'Password';
+                        }
+
 		
 		});
 		$(".username").focus(function() {
@@ -59,23 +77,53 @@
 		});
 		$(".fullname").focus(function(){
 			$(".full-icon").css("left","-48px");
+			if(this.value=='Full Name')
+                        {
+                                this.value = '';
+                        }
+
 		});
 		$(".fullname").blur(function(){
-			$(".full-icon").css("left","0px");		
+			$(".full-icon").css("left","0px");
+			if(this.value=='')
+                        {
+                                this.value = 'Full Name';
+                        }
+
 		
 		});
 		$(".gmail").focus(function(){
 			$(".gmail-icon").css("left","-48px");
+			if(this.value=='User@example.com')
+                        {
+                                this.value = '';
+                        }
+
 		});
 		$(".gmail").blur(function(){
-			$(".gmail-icon").css("left","0px");	
+			$(".gmail-icon").css("left","0px");
+			if(this.value=='')
+                        {
+                                this.value = 'User@example.con';
+                        }
+
 		
 		});
 		$(".email").focus(function(){
 			$(".gmailp-icon").css("left","-48px");
+			if(this.value=='Email')
+                        {
+                                this.value = '';
+                        }
+
 		});
 		$(".email").blur(function(){
-			$(".gmailp-icon").css("left","0px");	
+			$(".gmailp-icon").css("left","0px");
+			if(this.value=='')
+                        {
+                                this.value = 'Email';
+                        }
+
 		
 		});
 	});
@@ -264,7 +312,7 @@
 
 			<!-- Username -->			
 			<a alt="Please enter username" class="tooltip">                		
-			<input class="input username" type="text" id="uid" value="Username" onfocus="this.value=''"/></a>
+			<input class="input username" type="text" id="uid" value="Username" /></a>
 			<!-- End Username -->
 
 			<!-- Password -->
