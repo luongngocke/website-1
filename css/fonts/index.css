@@ -1,31 +1,3 @@
-/* ::::: http://fonts.googleapis.com/css?family=Open+Sans:400,700,300 ::::: */
-
-@font-face {
-	font-family: "Open Sans";
-	font-style: normal;
-	font-weight: 300;
-	src: local("Open Sans Light"), local("OpenSans-Light"), url('dxi1orhcpsqm3vp6mxoatxhcuogz7vygh680lgh-uxm.woff') format("woff");
-}
-@font-face {
-	font-family: "Open Sans";
-	font-style: normal;
-	font-weight: 400;
-	src: local("Open Sans"), local("OpenSans"), url('cjzkeoubrn4kerxqtauh3t8e0i7kzn-epnyo3hzu7kw.woff') format("woff");
-}
-@font-face {
-	font-family: "Open Sans";
-	font-style: normal;
-	font-weight: 700;
-	src: local("Open Sans Bold"), local("OpenSans-Bold"), url('k3k702zokiljc3wvjuplzhhcuogz7vygh680lgh-uxm.woff') format("woff");
-}
-/* ::::: http://fonts.googleapis.com/css?family=Raleway:200 ::::: */
-
-@font-face {
-	font-family: "Raleway";
-	font-style: normal;
-	font-weight: 200;
-	src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url('8khzd3vqbtxtaznvkjw-kxsxeywm7fgeyasgu71clg0.woff') format("woff");
-}
 
 audio, canvas, video 
 { 
