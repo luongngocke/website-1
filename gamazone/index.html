@@ -3,7 +3,7 @@
 <head>
     <!-- Meta Content -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->   
     <meta name="description" content="Developer Zone by rohanroy.com">
     <meta name="author" content="rohanroy.com">
     <!--SEO -->
@@ -17,6 +17,7 @@
  
     <!-- Bootstrap 3.0.2 -->
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <!--link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" /-->
     <!-- Font Awesome-->
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
     <!-- Ketchup -->
@@ -25,33 +26,42 @@
     <link rel="stylesheet" type="text/css" href="styles/animate.min.css" />
     <!-- STYLES.CSS -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <link rel="stylesheet" type="text/css" href="styles/index.css" />
-    
+    <!--Script -->
+    <script src="js/bootstrap.js"></script>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="scripts/respond.min.js"></script>
         <script type="text/javascript" src="scripts/html5shiv.js"></script>
     <![endif]-->
+    <!-- SCRIPTS -->
     
 </head>
 <body>
 <!-- Navbar -->
-<div class="navbar navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="contain">
-          		<a indepth="true" class="brand" style="margin-top: 3px;" href="http://rohanroy.com/about/about.html">Rohan Roy</a>
-                		<ul class="nav pull-right">
-					<li><a href="http://rohanroy.com/gamazone/" style="margin-top: 5px; font-size:18px; font-weight:600;">Gamazone</a></li>
-					<li><a href="http://rohanroy.com/" style="margin-top: 5px; font-size:18px; font-weight:600;" >Dev Zone</a></li>
-					<li><a href="http://rohanroy.com/" style="margin-top: 5px; font-size:18px; font-weight:600;" >Team</a></li>
-					<li><a href="http://rohanroy.com/" style="margin-top: 5px; font-size:18px; font-weight:600;" >Contact Us</a></li>
-					<li style="margin-right:2px;"><a href="http://rohanroy.com/index.html#join_form" class="button button-purple" style="font-weight:600; font-size:18px;" >Sign Up</a></li>
-					<li><a href="http://rohanroy.com/index.html#login_form" class="button button-purple" style="font-weight:600; font-size:18px;" >Sign In</a></li>
+<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container" >
+			<a href= "#"  class="navbar-brand" >Rohan Roy</a>
+			<!--a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse"> 
+          		<!--a indepth="true" class="brand" href="about/about.html">Rohan Roy</a-->
+			<!--div class="nav-collapse collapsed" style="height:0px;"-->		  	
+                		<!--ul class="nav pull-right"-->
+				<ul class="nav navbar-nav navbar-right">
+                  			<li class="active brand"><a  href="gamazone/index.html" >Gamazone</a></li>               	<li><a href="#" class="brand"  >Dev Zone</a></li>
+					<li><a href="#" class="brand"  >Team</a></li>
+					<li><a href="#" class="brand" >Contact Us</a></li>
+					<li ><a href="#join_form" class="btn btn-purple"  >Sign Up</a></li>
+					<li><a href="#login_form" class="btn btn-purple"  >Sign In</a></li>
                 		</ul>
 	        	
         	</div>
 	</div>
 </div>
-<!-- end Navbar -->
+<!--End Navbar-->
     <div class="main" id="top">
         <div class="container">
 			<div class="logo wrapper" >
@@ -174,10 +184,7 @@
     		<li><a href="http://youtube.com/triump0870" class="social-icon tool-tip" title="Youtube" data-placement="top"><i class="fa fa-youtube"></i></a></li>
 	</ul>
     </footer> <!-- end footer -->
-    
-    <!-- SCRIPTS -->
-    
-    <!-- jQuery 1.10.2 -->
+	<!-- jQuery 1.10.2 -->
     <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
     <!-- Bootstrap 3.0.2 -->
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -195,6 +202,17 @@
     <script type="text/javascript" src="scripts/scripts.js"></script>
     <div class="backstretch">
 	<img src="images/rohan.jpg" class="img">
-   </div>
+    </div>
+    <script>
+    $(function () {
+    $(window).scroll(function(){
+    // global scroll to top button
+        if ($(this).scrollTop() > 300) {
+            $('.scrolltop').fadeIn();
+        } else {
+            $('.scrolltop').fadeOut();
+        }        
+    });
+    </script>
 </body>
 </html>

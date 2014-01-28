@@ -8,7 +8,6 @@ www.rohanroy.com
 FONTS
 *******************/
 
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 
 /*******************
 SELECTION STYLING
@@ -254,9 +253,10 @@ FOOTER
 	bottom: -1px;
 }
 .tooltip {
-	display: block;
+	display: inline;
 	position: relative;
 	text-decoration: none;
+	
 }
 .tooltip:hover:after {
 	background: #333;
@@ -268,8 +268,9 @@ FOOTER
 	left: 160px;
 	padding: 5px 15px;
 	position: absolute;
-	z-index: 98;
+	z-index: 1;
 	width: 150px;
+	
 }
 .tooltip:hover:before {
 	border: solid;
@@ -279,7 +280,7 @@ FOOTER
 	content:"";
 	left: 155px;
 	position: absolute;
-	z-index: 99;
+	z-index: 1;
 	top: 3px;
 }
 

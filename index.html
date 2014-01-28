@@ -1,30 +1,29 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html>
 <head>
 	<!-- Title -->
-	<title>Rohan Roy</title>
+	<title>Developer Zone</title>
 	<!-- Favicon -->
-	<link href="about/favicon.ico" rel="shortcut icon">
+	<link href="about/favicon.ico" rel="shortcut icon"/>
 	<!-- Meta Content -->
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">   
-	<meta name="description" content="Developer Zone by rohanroy.com">
-	<meta name="author" content="rohanroy.com">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+	<meta name="Description" content="Author: Rohan Roy, Bio: Python Application Developer, Role: Linux System Adminstrator, Category: Website, Title: Developer Zone"/>
+	<meta name="author" content="Author: Rohan Roy"/>
 	<meta name="google-site-verification" content="B838bSkcuYAvoCveH3mzMWw_YL7cseitXqqv4Uzy3yk" /> 
-	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-    	<link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>   
 	<!--STYLESHEETS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css"  />
-	<link rel="stylesheet" type="text/css" href="css/index.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="css/modal.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/modal.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	
 	<!--SCRIPTS-->
-	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery.custom.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/video.js"></script>
 	<script src="js/bigvideo.js"></script>
-	<script src="js/modernizr-2.js"></script>
-	<script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function() {
 		$(".username").focus(function() {
@@ -129,25 +128,26 @@
 	});
 	</script>
 </head>
-<body>
-<div id="big-video-wrap">
-		<div style="width: 1288px; height: 724.5px; display: block; top: -23.25px; left: 0px;" height="150" width="300" class="video-js vjs-default-skin vjs-playing" id="big-video-vid">
-			<video src="video/frontier.ogv" tabindex="0" poster="" autoplay="" style="position: absolute; width: 100%;" id="big-video-vid_html5_api" class="vjs-tech" preload="auto" data-setup="{}" webkit-playsinline="" loop></video>
-		</div>
-	</div>
+<body oncontextmenu="return true">
 <!-- Navbar -->
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
-          		<a indepth="true" class="brand" style="margin-top: 3px;" href="about/about.html">Rohan Roy</a>		  	
+			<button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+          		<a indepth="true" class="brand" href="about/about.html">Rohan Roy</a>
+				<div class="nav-collapse collapsed" style="height:0px;">		  	
                 		<ul class="nav pull-right">
-                  			<li><a href="gamazone/index.html" style="margin-top: 5px; font-size:18px; font-weight:500;" >Gamazone</a></li>               	<li><a href="#" class="scroller" style="margin-top: 5px; font-size:18px; font-weight:500;" data-section="#about">Dev Zone</a></li>
-					<li><a href="#" class="scroller" style="margin-top: 5px; font-size:18px; font-weight:500;" data-section="#team">Team</a></li>
-					<li><a href="#" class="scroller" style="margin-top: 5px; font-size:18px; font-weight:500;" data-section="#contact">Contact Us</a></li>
+                  			<li ><a  href="gamazone/index.html" >Gamazone</a></li>               	<li><a href="#" class="scroller" data-section="#about">Dev Zone</a></li>
+					<li><a href="#" class="scroller"  data-section="#team">Team</a></li>
+					<li><a href="#" class="scroller" data-section="#contact">Contact Us</a></li>
 					<li style="margin-right:2px;"><a href="#join_form" class="btn btn-purple" style="font-weight:500; font-size:18px;" >Sign Up</a></li>
 					<li><a href="#login_form" class="btn btn-purple" style="font-weight:500; font-size:18px;" >Sign In</a></li>
                 		</ul>
-	        	
+	        	</div>
         	</div>
 	</div>
 </div>
@@ -210,12 +210,12 @@
 			<ul class="thumbnails">
 				<li class="span3">
 					<div class="thumbnail">
-						<img alt="Rohan Roy" src="http://www.gravatar.com/avatar/d3085ab7ab05bdee95e2708b4eaccd4b.png">
+						<img alt="Rohan Roy" src="img/rohan.png">
 						<h3>Rohan</h3>
 						<p>Web Designer, Linux System adminstrator and python app developer</p>
 					      	<div class="social">
 							<a href="http://github.com/triump0870">
-							<img alt="github" src="img/3.png" ></a>
+							<img width="23px" height="23px" alt="github" src="img/github.png" ></a>
 							<a href="http://in.linkedin.com/in/triump0870">
 							<img alt="linkedin" src="img/linkedin.png"></a>
 							<a href="http://www.twitter.com/triump0870">
@@ -227,7 +227,26 @@
 					      </div>
 					</div>
 				</li>
-			
+				 <li class="span3">
+                                        <div class="thumbnail">
+                                                <!--img alt="Rohan Roy" src="http://www.gravatar.com/avatar/d3085ab7ab05bdee95e2708b4eaccd4b.png"-->
+                                                <h3>Subhendu</h3>
+                                                <p>Web Designer, JAVA application developer, Database Administrator</p>
+                                                <div class="social">
+                                                        <a href="http://github.com/subhendukhatuya">
+                                                        <img alt="github" src="img/3.png" ></a>
+                                                        <a href="http://in.linkedin.com/">
+                                                        <img alt="linkedin" src="img/linkedin.png"></a>
+                                                        <a href="http://www.twitter.com/">
+                                                        <img alt="twitter" src="img/twitter.png" ></a>
+                                                        <a href="http://www.facebook.com/">
+                                                        <img alt="facebook" src="img/facebook.png" ></a>
+                                                        <a href="mailto:subha.cse143@gmail.com.com">
+                                                        <img alt="gmail" src="img/email.png"></a>
+                                              </div>
+                                        </div>
+                                </li>
+
 				  
 			</ul>
 		</div>
@@ -306,7 +325,7 @@
 		<!-- Content -->
             	<div class="content">
 			<!-- Fullname -->				
-			<a alt="Please enter your Fullname" class="tooltip">
+			<a alt="Please enter your Fullname" class="tooltip animated fadeIn">
 			<input class="input fullname" type="text" id="fullname" value="Full Name" onfocus="this.value=''"/></a>
 			<!-- End Fullname -->
 
@@ -471,13 +490,12 @@ $(function () {
     	// fallback image for mobile devices
         BV.show('img/bg2.jpg');
     } else {
-        BV.show('frontier.mp4',
+        BV.show('video/frontier.mp4',
         {ambient:true, doLoop:true, altSource:'video/frontier.ogv'});
     }   
     
             
 });
 </script>
-
 </body>
 </html>
