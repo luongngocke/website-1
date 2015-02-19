@@ -1,0 +1,7 @@
+table.tr-caption-container {
+background: #ddd;
+line-height: 1.3;
+display: table;
+table-layout: fixed;
+word-break: break-all;
+width: auto;
